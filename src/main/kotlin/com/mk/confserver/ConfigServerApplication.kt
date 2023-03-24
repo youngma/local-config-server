@@ -2,9 +2,10 @@ package com.mk.confserver
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import org.springframework.cloud.config.server.EnableConfigServer
 
 @SpringBootApplication
-@ConfigServerApplication
+@EnableConfigServer
 class ConfigServerApplication
 
 fun main(args: Array<String>) {
