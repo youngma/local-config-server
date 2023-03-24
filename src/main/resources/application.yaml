@@ -1,4 +1,9 @@
 server:
-  port: 9090
+  port: 8888
 
-
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/youngma/local-config.git
